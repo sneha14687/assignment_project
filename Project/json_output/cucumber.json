@@ -1,0 +1,403 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9560000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to naviagte onto the elarning page",
+            "match": {
+              "location": "stepDefinition.steps.i_am_able_to_naviagte_onto_the_elarning_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-28T06:11:00.850Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7893000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.steps.beforetest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "register with your user",
+        "description": "",
+        "id": "common-features;register-with-your-user",
+        "after": [
+          {
+            "result": {
+              "duration": 369000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6661000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Enter the first name as \"\u003cfname\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cfname\u003e\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_first_name_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Enter the last name as \"\u003clname\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clname\u003e\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_last_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Enter the email as \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Enter the user name as \"\u003cuname\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cuname\u003e\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_user_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter the pass as \"\u003cpwd1\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpwd1\u003e\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_pass_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Enter the confirm password as \"\u003cpwd2\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpwd2\u003e\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_confirm_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4858000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the register button",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2210000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see the message",
+            "match": {
+              "location": "stepDefinition.steps.i_should_see_the_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9015000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to naviagte onto the elarning page",
+            "match": {
+              "location": "stepDefinition.steps.i_am_able_to_naviagte_onto_the_elarning_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-28T06:11:33.406Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5823000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.steps.beforetest()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "login with your user and compose a mail",
+        "description": "",
+        "id": "common-features;login-with-your-user-and-compose-a-mail;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 491000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9109000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Enter the username as \"S_K_3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"S_K_3\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I Enter the password as \"varad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"varad\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7388000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the login button",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3046000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see the welcome message",
+            "match": {
+              "location": "stepDefinition.steps.i_should_see_the_welcome_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11614000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on compose button",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_compose_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15418000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Enter Send to mail as \"\u003csendtomail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csendtomail\u003e\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_send_to_mail_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Enter subject as \"\u003csubject\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csubject\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Enter message as \"\u003cmessage\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cmessage\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_message_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5226000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on send message button",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9039000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should get acknowledgement message",
+            "match": {
+              "location": "stepDefinition.steps.i_should_get_acknowledgement_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Common Features",
+    "description": "This feature includes scenario that would register a new user\n1. register with your user\n2. login with your user\n3. click on compose",
+    "id": "common-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Common.feature",
+    "tags": []
+  }
+]

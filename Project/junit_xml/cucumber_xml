@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="109.587">
+<testcase classname="Common Features" name="register with your user" time="32.523">
+<system-out><![CDATA[Given I am able to naviagte onto the elarning page..........................passed
+When I Enter the first name as "<fname>"....................................passed
+And I Enter the last name as "<lname>"......................................passed
+And I Enter the email as "<email>"..........................................passed
+And I Enter the user name as "<uname>"......................................passed
+And I Enter the pass as "<pwd1>"............................................passed
+And I Enter the confirm password as "<pwd2>"................................passed
+And I click on the register button..........................................passed
+Then I should see the message...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Common Features" name="login with your user and compose a mail" time="76.698">
+<system-out><![CDATA[Given I am able to naviagte onto the elarning page..........................passed
+When I Enter the username as "S_K_3"........................................passed
+And I Enter the password as "varad".........................................passed
+And I click on the login button.............................................passed
+And I should see the welcome message........................................passed
+And I click on compose button...............................................passed
+And I Enter Send to mail as "<sendtomail>"..................................passed
+And I Enter subject as "<subject>"..........................................passed
+And I Enter message as "<message>"..........................................passed
+And I click on send message button..........................................passed
+Then I should get acknowledgement message...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
