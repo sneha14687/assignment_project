@@ -43,7 +43,7 @@ WebDriver driver;
 	
 	@When("I Enter the last name as {string}")
 	public void i_enter_the_last_name_as(String string) {
-    	driver.findElement(By.id("registration_lastname")).sendKeys("K3");
+    	driver.findElement(By.id("registration_lastname")).sendKeys("K7");
 	}
 	
 	@When("I Enter the email as {string}")
@@ -53,7 +53,7 @@ WebDriver driver;
 	
 	@When("I Enter the user name as {string}")
 	public void i_enter_the_user_name_as(String string) {
-	    driver.findElement(By.id("username")).sendKeys("S_K_3");
+	    driver.findElement(By.id("username")).sendKeys("S_K_7");
 	}
 	
 	@When("I Enter the pass as {string}")
@@ -74,6 +74,7 @@ WebDriver driver;
 	
 	@Then("I should see the message")
 	public void i_should_see_the_message() throws InterruptedException {
+		Thread.sleep(4000);
 		String msg1 = driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/div[1]/p[1]")).getText();
 		System.out.println(msg1);
 		Thread.sleep(2000);
@@ -129,9 +130,12 @@ WebDriver driver;
 	}
 	
 	@When("I Enter message as {string}")
-	public void i_enter_message_as(String string) {
-		//driver.findElement(By.xpath("/html/body/p[1]")).sendKeys("");
-	    driver.findElement(By.xpath("/html[1]/body[1]")).sendKeys("Hello Sneha,(/n) This is for Testing. (/n)");
+	public void i_enter_message_as(String string) throws InterruptedException {
+		driver.switchTo().frame(0);
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("/html[1]/body[1]")).sendKeys("Hello Sneha, This is for Testing.");
+		Thread.sleep(5000);
+		driver.switchTo().parentFrame();
 	}
 	
 	@When("I click on send message button")

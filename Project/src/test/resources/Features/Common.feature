@@ -33,4 +33,4 @@ Then I should get acknowledgement message
 
 Examples:
 |user		  |pwd       |
-|S_K_3		|varad     |
+|S_K_7		|varad     |

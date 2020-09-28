@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="109.587">
-<testcase classname="Common Features" name="register with your user" time="32.523">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="253.382">
+<testcase classname="Common Features" name="register with your user" time="151.66">
 <system-out><![CDATA[Given I am able to naviagte onto the elarning page..........................passed
 When I Enter the first name as "<fname>"....................................passed
 And I Enter the last name as "<lname>"......................................passed
@@ -12,9 +12,9 @@ And I click on the register button..........................................pass
 Then I should see the message...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Common Features" name="login with your user and compose a mail" time="76.698">
+<testcase classname="Common Features" name="login with your user and compose a mail" time="100.618">
 <system-out><![CDATA[Given I am able to naviagte onto the elarning page..........................passed
-When I Enter the username as "S_K_3"........................................passed
+When I Enter the username as "S_K_7"........................................passed
 And I Enter the password as "varad".........................................passed
 And I click on the login button.............................................passed
 And I should see the welcome message........................................passed
